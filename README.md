@@ -42,4 +42,11 @@ const feedback = {
     info: '#80D6E7'
 }
 
+const feedbackVibrant={
+    success: '#36B37E',
+    warning: '#FFAB00',
+    danger: '#FF5630',
+    info: '#00B8D9'
+}
+
 ```
