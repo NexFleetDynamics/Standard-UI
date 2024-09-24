@@ -8,45 +8,50 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
     <link rel="stylesheet" href="styles/global.css">
     <link rel="stylesheet" href="styles/login.css">
     <title>Login</title>
 </head>
 
 <body>
-    <div class="flex">
-        <div class="w-3/5 h-screen custom-py-1p">
-            <div class="bus-background w-full h-full">
-                
-            </div>
+    <div class="h-screen flex md:flex-row flex-col">
+        <div class="lg:w-3/5 h-screen custom-py-1p lg:block hidden">
+            <div class="bus-background bg-cover w-full h-full rounded-r-3xl"></div>
         </div>
 
-        <div class="flex flex-col py-4 w-2/5 mt-6 items-center">
-            <p class="font-bold text-5xl w-full text-center mt-4 text-[#004369]">Bus Transportation Management System</p>
-            <p class="font-semibold text-3xl text-center mt-10 text-[#004369]">&lt;Sub System&gt;</p>
+        <div class="flex flex-col py-4 md:1/2 lg:w-2/5 w-full items-center">
+            <p class="font-bold md:text-4xl text-2xl w-full text-center text-[#00446b]">Bus Transportation Management System</p>
+            <p class="font-semibold md:text-3xl text-xl text-center mt-10 text-[#00446b]">&lt;Sub System&gt;</p>
 
-            <form class="w-4/6 py-4 rounded-3xl custom-shadow mt-9 flex flex-col items-center">
-                <p class="text-center mb-4 text-[#004369] text-xl">Sign In</p>
-                <hr class="border-[#004369] w-full">
+            <form class="w-4/5 py-4 rounded-3xl shadow-lg shad mt-10 flex flex-col items-center border">
+                <p class="text-center mb-4 text-xl text-[#00446b]">Sign In</p>
+                <hr class="border w-full border-[#00446b]">
 
                 <div class="mt-8 w-4/5">
-
-                    <input class="mt-1 block w-full placeholder:text-[#005F94] border border-gray-300 rounded-md p-2" type="email" placeholder="Email">
-                    <input class="mt-4 block w-full placeholder:text-[#005F94] border border-gray-300 rounded-md p-2" type="password" placeholder="Password">
-
-                    <div class="w-full flex justify-between mt-4 mb-24">
-                        <span class="">
-                            <input type="checkbox" id="remember">
-                            <label for="remember">Remember me</label>
-                        </span>
-                        <a href="#">forgot your password?</a>
-                    </div>
+                    <input class="mt-1 block w-full bg-transparent rounded-md border p-2" type="email" placeholder="Email">
                 </div>
+                <div class="mt-4 w-4/5">
+                    <input class="mt-1 block w-full bg-transparent rounded-md border p-2" type="password" placeholder="Password">
+                </div>
+
+                    <div class="w-4/5 flex justify-between mt-4 lg:mb-12 mb-12">
+                        <label class="flex items-center">
+                            <input 
+                            type="checkbox"
+                            name="remember"
+                            />
+                            <span class="text-sm hover:text-gray-300/50 rounded-md text-[#00446b]">Remember me</span>
+                        </label>
+                        <a class="text-sm hover:text-gray-300/50 rounded-md text-[#00446b]" href="#">Forgot your password?</a>
+                    </div>
+
                 <div class="flex items-center mt-4 mb-8 w-4/5">
-                    <a class="w-full bg-[#004369] text-white p-2 rounded-lg" href="dashboard.html">
-                        <p class="text-center">Log In</p>
+                    <a class="w-full font-medium p-2 rounded-md border bg-[#00446b]" href="dashboard.html">
+                        <p class="text-center text-white">Log In</p>
                     </a>
                 </div>
             </form>

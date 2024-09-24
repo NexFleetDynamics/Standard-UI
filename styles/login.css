@@ -1,6 +1,3 @@
 div.bus-background {
-    background-size: contain;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    background-image: url("../images/bus-background-croped.png");
+    background-image: url("../images/bus-background.jpg");
 }
