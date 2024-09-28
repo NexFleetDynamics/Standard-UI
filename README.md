@@ -65,4 +65,4 @@ const feedbackVibrant={
 <img src="images\snapshot_1.png">
 
 ### Dashboard
-<img src="images\snapshot_1.png">
+<img src="images\snapshot_2.png">
