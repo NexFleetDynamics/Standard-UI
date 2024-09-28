@@ -62,7 +62,7 @@ const feedbackVibrant={
 # Preview
 
 ### Login Page
-![Login](images\snapshot_1.png)
+<img src="images\snapshot_1.png">
 
 ### Dashboard
-![Dashboard](images\snapshot_2.png)
+<img src="images\snapshot_1.png">
