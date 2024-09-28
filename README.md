@@ -1,12 +1,20 @@
 # BTMS Standard UI
 
-Font: [Poppins](https://fonts.google.com/specimen/Poppins?query=poppins)
+> [!NOTE]  
+> ### This front end is for reference only, it used tailwind CDN heavily for its styling, if you decided to use it use the source code at your own understanding.
 
-Icon Pack: [Tabler Icons](https://tabler.io/icons)
+>[!WARNING]
+> UI Design in figma is **OUTDATED**, is not recommended to used as reference.
 
-[Figma Design](https://www.figma.com/design/seFlmdlPbDBgoFv7SYD6Lh/BTMS-UI-REFERENCE?node-id=0-1&node-type=CANVAS&t=gfGQhSqBa1b8oyP4-0)
+### [Figma Design](https://www.figma.com/design/seFlmdlPbDBgoFv7SYD6Lh/BTMS-UI-REFERENCE?node-id=0-1&node-type=CANVAS&t=gfGQhSqBa1b8oyP4-0)
 
-[Figma Prototype](https://www.figma.com/proto/seFlmdlPbDBgoFv7SYD6Lh/BTMS-UI-REFERENCE?node-id=1-83&starting-point-node-id=1%3A83)
+### [Figma Prototype](https://www.figma.com/proto/seFlmdlPbDBgoFv7SYD6Lh/BTMS-UI-REFERENCE?node-id=1-83&starting-point-node-id=1%3A83)
+
+<hr/>
+
+## Font: [Poppins](https://fonts.google.com/specimen/Poppins?query=poppins)
+
+## Icon Pack: [Tabler Icons](https://tabler.io/icons)
 
 ## Color Schemes
 
@@ -50,3 +58,11 @@ const feedbackVibrant={
 }
 
 ```
+
+# Preview
+
+### Login Page
+![Login](images\snapshot_1.png)
+
+### Dashboard
+![Dashboard](images\snapshot_2.png)
