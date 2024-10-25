@@ -1,10 +1,10 @@
 # BTMS Standard UI
 
 > [!NOTE]  
-> ### This front end is for reference only, it used tailwind CDN heavily for its styling, if you decided to use it use the source code at your own understanding.
+> ### This front end source code is for structural and UI design reference only, it uses tailwind CDN heavily for its styling, if you decided to use it, use the source code at your own understanding.
 
 >[!WARNING]
-> UI Design in figma is **OUTDATED**, is not recommended to used as reference.
+> UI Design in figma is **OUTDATED**, it is not recommended to use it as reference.
 
 ### [Figma Design](https://www.figma.com/design/seFlmdlPbDBgoFv7SYD6Lh/BTMS-UI-REFERENCE?node-id=0-1&node-type=CANVAS&t=gfGQhSqBa1b8oyP4-0)
 
@@ -74,7 +74,7 @@ const feedbackVibrant={
 ### Forgot Password
 <a href="https://nexfleetdynamics.github.io/Standard-UI/forgot.html">
     <img src="images\snapshot_3.png">
-</a>
+<!-- </a> -->
 
 ### Reset Password
 <a href="https://nexfleetdynamics.github.io/Standard-UI/reset.html">
