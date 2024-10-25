@@ -62,7 +62,21 @@ const feedbackVibrant={
 # Preview
 
 ### Login Page
-<img src="images\snapshot_1.png">
+<a href="https://nexfleetdynamics.github.io/Standard-UI/">
+    <img src="images\snapshot_1.png">
+</a>
 
 ### Dashboard
-<img src="images\snapshot_2.png">
+<a href="https://nexfleetdynamics.github.io/Standard-UI/dashboard.html">
+    <img src="images\snapshot_2.png">
+</a>
+
+### Forgot Password
+<a href="https://nexfleetdynamics.github.io/Standard-UI/forgot.html">
+    <img src="images\snapshot_3.png">
+</a>
+
+### Reset Password
+<a href="https://nexfleetdynamics.github.io/Standard-UI/reset.html">
+    <img src="images\snapshot_4.png">
+</a>
