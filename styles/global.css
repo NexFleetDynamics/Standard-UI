@@ -22,3 +22,7 @@
 input:focus {
     outline: none;
 }
+
+div.bus-background {
+    background-image: url("../images/bus-background.jpg");
+}
